@@ -1,0 +1,297 @@
+body {
+  
+  /* display: flex; */
+ /* display:block; */
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(to bottom, white, black); */
+
+
+  display: block;
+  /* height: 100%; */
+  /* width:100%; */
+  /* overflow: auto; */
+  overflow-y: scroll;
+    /* overflow: hidden; */
+
+    width: 100%;
+    /* background: blue; */
+   
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-right:20%;
+    margin-left:20%; */
+  
+} 
+
+
+
+header{
+  display:flex !important;
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100%; 
+  height: 50px;
+  padding: 5px;
+  /* background: black; */
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+  /* opacity: 0.7; */
+  background-color:  white;
+  opacity: 0.8;
+}
+ 
+a:hover {
+  text-decoration: none!important;
+}
+ 
+.cap5 {
+   /* top:0; */
+
+   font-size: 30px;
+   margin-right:20%;
+   margin-left:10%;
+   margin-top:0;
+   margin-bottom: 0;
+   /* text-align: center; */
+   /* background:transparent;   */
+   min-width: 100px;
+}
+
+.cap5:hover {
+  text-decoration: none;
+}
+
+.items{
+  min-width: 300px;
+}
+.menu-item {
+ list-style: none;
+ /* background: red; */
+ margin-right: 20px;
+ margin-top: 10px;
+ display: inline;
+}
+
+.insta{
+ margin-top: 7px;
+ /* background:red; */
+ color:black;
+ text-align: center;
+ height: 30px;
+ width: 50px;
+ min-width: 50px;
+ /* filter: invert(); */
+}
+.youtube{
+ margin-top: 5px;
+ /* background:blue; */
+ color:black;
+ text-align: center;
+ height: 30px;
+ width: 40px;
+ min-width: 30px;
+ /* filter: invert(); */
+}
+
+
+
+  
+
+
+.text1{
+  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+
+/* font-family:  sans-serif;
+font-weight: 300;
+font-style: normal; */
+ margin-top:100px;
+ /* margin-bottom: 100px; */
+ margin-right:auto;
+ margin-left:auto; 
+ /* height: 60%; */
+ /* background: rebeccapurple; */
+ width: 60%;  
+}
+.text2{
+  font-family: futura-pt,a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+ /* margin-top:100px; */
+ margin-right:auto;
+ margin-left:auto; 
+ width: 60%;  
+}
+
+.text3{
+  text-align: center;
+  /* box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3); */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 50px;
+}
+/* .text3{
+  display: inline;
+
+ margin-top:100px;
+ margin-bottom: 100px;
+ margin-right:auto;
+ margin-left:auto; 
+
+} */
+
+
+.yt_logo {
+  width: 10%;
+  height: 10%;
+}
+
+.ig_logo {
+  width: 5%;
+  height: 5%;
+}
+
+.background{
+  margin-top: 0;
+ margin-bottom: 0;
+ margin-right:auto;
+ margin-left:auto; 
+ /* height: 60%; */
+ /* background: rebeccapurple; */
+ width: 30%;  
+}
+
+.photo{
+  margin-top: 0;
+  /* width: 800px; */
+  width:60%;
+  margin-left:20%; 
+  margin-right: 20%; 
+  /* filter: grayscale(100%); */
+  transition-duration: 1s;
+  /* opacity: 0.1; */
+  /* margin-top: 40%; */
+ 
+}
+.photolast{
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 10%;
+  width: 20%;
+}
+.photolast2{
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom:10% ;
+  width: 20%;
+}
+
+
+/*-----  SP  ---- */
+@media screen and (max-width: 760px) {
+  /* 768pxまでの幅の場合に適応される */
+
+
+  header{
+    display: flex!important;;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%; 
+    padding: 5px;
+    /* background:black; */
+    /* background: rgb(236, 236, 236); */
+    height: auto;
+    z-index: 2;
+    padding-bottom:0 !important;
+    /* opacity: 0.8; */
+  }
+   
+   #nav1{
+     margin-right: 0;
+     /* margin-left: auto; */
+     /* background: green; */
+     background: transparent;
+     color:white;
+   }
+
+
+    
+  .a{
+    font-size: 1px;
+  }
+
+  .cap5 {
+    font-size: 30px;
+    margin-right: 0;
+  }
+  .items{
+    min-width: 100px;
+ }
+
+ .menu-item{
+  list-style: none;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  text-align: right;
+  display: block;
+  margin-top: 50px;
+  font-size: 20px;
+}
+  .navbar-toggler{
+    filter:invert();
+  }
+  .navbar{
+    margin-bottom: 0!important;
+  }
+  .photo{
+    margin-top: 0;
+    /* width: 800px; */
+    width:90%;
+    margin-left:5%; 
+    margin-right: 5%; 
+    /* filter: grayscale(100%); */
+    transition-duration: 1s;
+    /* opacity: 0.1; */
+    /* margin-top: 40%; */
+  }
+  /* 先ほどここ追加した。 */
+
+  .insta{
+    display:none;
+   }
+   .youtube{
+    display:none;
+   }
+   .text1{
+   width: 80%;  
+   margin-top: 100px;
+  }
+  .text2{
+
+   width: 80%;  
+  }
+  .text2{
+
+    width: 80%;  
+   }
+   
+
+  .yt_logo {
+    width: 30%;
+    height: 30%;
+  }
+  
+  .ig_logo {
+    width: 10%;
+    height: 10%;
+  }
+
+
+
+ }
+
