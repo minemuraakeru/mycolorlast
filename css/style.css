@@ -109,7 +109,8 @@ header{
   /* color: rgb(55, 121, 180); */
   color:white;
   text-decoration: none;
-  min-width: 100px;
+  /* ==================================================== */
+  /* min-width: 100px; */
   /* filter: invert(); */
 }
 
@@ -535,6 +536,7 @@ background:#eee;
    .cap5{
      margin-left: 45%;
      width: 30%;
+     margin-right: 0;
      /* color:black; */
    }
    #nav1{
